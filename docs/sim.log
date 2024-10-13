@@ -1,0 +1,110 @@
+# vsim -voptargs="+acc" work.FIFO_top -classdebug -uvmcontrol=all -coverage -l sim.log 
+# Start time: 19:09:20 on Oct 13,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.FIFO_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.FIFO_seq_item_pkg(fast)
+# Loading work.FIFO_reset_sequence_pkg(fast)
+# Loading work.FIFO_empty_sequence_pkg(fast)
+# Loading work.FIFO_full_sequence_pkg(fast)
+# Loading work.FIFO_write_then_read_sequence_pkg(fast)
+# Loading work.FIFO_write_only_sequence_pkg(fast)
+# Loading work.FIFO_read_only_sequence_pkg(fast)
+# Loading work.FIFO_write_read_sequence_pkg(fast)
+# Loading work.FIFO_sequencer_pkg(fast)
+# Loading work.FIFO_monitor_pkg(fast)
+# Loading work.FIFO_config_pkg(fast)
+# Loading work.FIFO_driver_pkg(fast)
+# Loading work.FIFO_agent_pkg(fast)
+# Loading work.FIFO_coverage_pkg(fast)
+# Loading work.FIFO_scoreboard_pkg(fast)
+# Loading work.FIFO_env_pkg(fast)
+# Loading work.FIFO_test_pkg(fast)
+# Loading work.FIFO_sv_unit(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.FIFO_top(fast)
+# Loading work.FIFO_if(fast__2)
+# Loading work.FIFO(fast)
+# Loading work.FIFO_SVA(fast)
+# Loading C:/questasim64_2021.1/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(all)
+# UVM_INFO @ 0: reporter [RNTST] Running test FIFO_test...
+# UVM_INFO FIFO_test.sv(52) @ 0: uvm_test_top [run_phase] Reset Asserted
+# **************************************************************************
+# * Questa UVM Transaction Recording Turned ON.                            *
+# * recording_detail has been set.                                         *
+# *  To turn off, set 'recording_detail' to off:                           *
+# * uvm_config_db#(int)            ::set(null, "", "recording_detail", 0); *
+# * uvm_config_db#(uvm_bitstream_t)::set(null, "", "recording_detail", 0); *
+# **************************************************************************
+# UVM_INFO FIFO_test.sv(54) @ 2: uvm_test_top [run_phase] Reset Desserted
+# UVM_INFO FIFO_test.sv(56) @ 2: uvm_test_top [run_phase] write_read Sequence Generation Started
+# UVM_INFO FIFO_test.sv(58) @ 20002: uvm_test_top [run_phase] write_read Sequence Generation Ended
+# UVM_INFO FIFO_test.sv(60) @ 20002: uvm_test_top [run_phase] Write Sequence Generation Started
+# UVM_INFO FIFO_test.sv(62) @ 40002: uvm_test_top [run_phase] Write Sequence Generation Ended
+# UVM_INFO FIFO_test.sv(64) @ 40002: uvm_test_top [run_phase] Read Sequence Generation Started
+# UVM_INFO FIFO_test.sv(66) @ 60002: uvm_test_top [run_phase] Read Sequence Generation Ended
+# UVM_INFO FIFO_test.sv(68) @ 60002: uvm_test_top [run_phase] Reset Asserted
+# UVM_INFO FIFO_test.sv(70) @ 60004: uvm_test_top [run_phase] Reset Desserted
+# UVM_INFO FIFO_test.sv(72) @ 60004: uvm_test_top [run_phase] Write then Read Sequence Generation Started
+# UVM_INFO FIFO_test.sv(74) @ 60036: uvm_test_top [run_phase] Write then Read Sequence Generation Ended
+# UVM_INFO FIFO_test.sv(76) @ 60036: uvm_test_top [run_phase] Full Sequence Generation Started
+# UVM_INFO FIFO_test.sv(78) @ 60062: uvm_test_top [run_phase] Full Sequence Generation Ended
+# UVM_INFO FIFO_test.sv(80) @ 60062: uvm_test_top [run_phase] Empty Sequence Generation Started
+# UVM_INFO FIFO_test.sv(82) @ 60088: uvm_test_top [run_phase] Empty Sequence Generation Ended
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 60088: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO FIFO_scoreboard.sv(113) @ 60088: uvm_test_top.env.sb [report_phase] Total Successful Transactions : 30044
+# UVM_INFO FIFO_scoreboard.sv(114) @ 60088: uvm_test_top.env.sb [report_phase] Total FAILED Transactions : 0
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   22
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [report_phase]     2
+# [run_phase]    16
+# ** Note: $finish    : C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 60088 ns  Iteration: 61  Instance: /FIFO_top
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/CA/Desktop/Digitial Verification/UVM FIFO Project/UVM FIFO Project.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/CA/Desktop/Digitial Verification/UVM FIFO Project/UVM FIFO Project.mpf).  File can not be renamed.
+# Saving coverage database on exit...
+# End time: 19:10:30 on Oct 13,2024, Elapsed time: 0:01:10
+# Errors: 2, Warnings: 2
+# QuestaSim-64 vcover 2021.1 Coverage Utility 2021.01 Jan 19 2021
+# Start time: 19:10:30 on Oct 13,2024
+# vcover report FIFO_top.ucdb -details -annotate -all -output FIFO_coverage_rpt.txt 
+# End time: 19:10:30 on Oct 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
