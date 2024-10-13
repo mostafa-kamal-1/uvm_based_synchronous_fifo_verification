@@ -1,6 +1,5 @@
 # 🚀 uvm_based_synchronous_fifo_verification
 A UVM-based verification environment for a configurable Synchronous FIFO, featuring comprehensive functional and code coverage, detailed test sequences, and assertions.
-Here’s the updated version of your `README.md` file, modified to include details about the folder structure, file organization, and a brief description of each component: 
 
 Welcome to the **UVM Synchronous FIFO** project! This project enhances a traditional Synchronous FIFO design by incorporating the power of the **Universal Verification Methodology (UVM)**. Whether you’re a verification expert or new to digital design, this repository showcases the journey of building, testing, and verifying a highly configurable FIFO module.
 
